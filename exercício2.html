@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="msg"></h2>
+    <script>
+        let idade = Number(prompt("Qual a sua idade??"))
+
+        if (idade>=18){
+            document.getElementById('msg').innerHTML = `Voce é maior de idade`
+        }
+        else {
+            document.getElementById('msg').innerHTML = `Voce é menor de idade`
+        }
+    </script>
+</body>
+</html>

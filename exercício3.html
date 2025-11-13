@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id=msg></h1>
+    <script>
+        let n1 = Number(prompt("Insira um número!"))
+        if (n1 % 2 == 1 ) {
+            document.getElementById('msg').innerHTML = `O seu número é ${n1}, logo é ímpar`
+        } 
+        else
+         {
+            document.getElementById('msg').innerHTML = `O número é ${n1}, portanto é par`
+        }
+        
+    </script>
+    
+</body>
+</html>
